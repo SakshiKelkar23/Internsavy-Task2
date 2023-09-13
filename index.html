@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/download.png" class="logo" />
+
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Web Developer</p>
+          <h1>
+            Hello,<br />I'm <span>Sakshi Kelkar</span><br />
+            From Pune
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------------About-------------------------------------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/about.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I am outgoing, dedicated, and open-minded. I get across to people
+              and adjust to changes with ease. I believe that a person should
+              work on developing their professional skills and learning new
+              things all the time. Currently, I am looking for new career
+              opportunities
+            </p>
+            <div class="tab-title">
+              <p class="tab-link active-link">Skills</p>
+            </div>
+            <div class="tab-contents active-tab">
+              <ul>
+                <li>
+                  <span>Web Developer</span><br />Designing Web Interfaces
+                </li>
+                <li>
+                  <span>Front end Developer</span><br />Designing User
+                  Interfaces
+                </li>
+                <li><span>Web Developer</span><br />Focusing mostly on UX</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -------------------Portfolio------------------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/Website-Template-Design-Header.webp" />
+            <div class="layer">
+              <h3 class="title-port">Social Media Website</h3>
+              <p>
+                The website connects you to the talented people around the
+                world.You can brows from the google
+              </p>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/musicimg.png" />
+            <div class="layer">
+              <h3 class="title-port">Music Websites</h3>
+              <p>
+                You can reach out with new songs of your favourite gener
+                ,podcastes and many more...
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -----------------contact form ------------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p class="email">Contact@gmail.com</p>
+            <p class="phn">91+1234567890</p>
+          </div>
+          <div class="contact-right"></div>
+          <form>
+            <input type="text" name="Name" placeholder="Your name " required />
+            <input
+              type="email"
+              name="Email"
+              placeholder="abcd@gmail.com"
+              required
+            />
+            <textarea
+              type="Message"
+              rows="6"
+              placeholder="Your message "
+            ></textarea>
+            <button type="submit" class="btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
